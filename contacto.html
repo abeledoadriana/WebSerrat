@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adriana Abeledo">
+    <meta name="description" content="Serrat: por siempre">
+    <title>Contacto formulario</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>  
+
+<body>
+
+<!-- ENCABEZADO del sitio -->
+    <header>
+          <h1>JOAN MANUEL SERRAT POR SIEMPRE</h1>       
+       
+<!-- MENÚ de navegación -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>   
+    </header>
+
+<main>
+
+    <h2 class="sumate-title">¡¡Súmate a nuestro Fanclub de Joan Manuel Serrat!!</h2>
+
+    <!-- Formulario de contacto -->
+
+    <section class="contenedor-formulario">
+        <h3>Contáctanos</h3>
+        <p>Si querés ponerte en contacto para compartir recuerdos, hacer una consulta o simplemente dejar un mensaje sobre Joan Manuel Serrat, completá el siguiente formulario y te responderemos a la brevedad.</p>
+
+      
+        <!-- el formulario no se enviará a ningún servidor. Es para prueba:  -->
+        <form action="#">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" required>
+    
+            <label for="email">Correo electrónico: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="">--Seleccioná una opción--</option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="otro">Otro</option>
+            </select>
+    
+            <label for="pais">¿De dónde eres?</label>
+            <select id="pais" name="pais">
+                <option value="uy">Uruguay</option>
+                <option value="otropais">Otro país</option> 
+            </select>
+    
+            <label for="sugerencias">Sugerencias:</label>
+            <textarea id="sugerencias" name="sugerencias" rows="4"></textarea>
+    
+            <label>
+                <input type="checkbox" name="suscribirse"> Deseo recibir novedades
+            </label>
+    
+            <button type="submit">Enviar Mensaje</button>
+    
+        </form>
+    </section>
+
+
+<section class="contactoyredes">
+    <h3>¡Colabora con nuestro sitio web!</h3>
+    <p>Si tienes fotos que quisieras compartir de su última visita a Montevideo aquí te dejo el correo para enviarlas: </p>
+    <p> Email: serratmontevideo@gmail.com </p>
+    <p> A la brevedad publicaremos las fotos de ese acontecimiento</p>
+    <p> También puedes compartirlas en nuestras redes sociales:</p>
+
+    <div class="redes-sociales">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="Twitter">
+        </a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube">
+        </a>
+    </div>
+</section>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy;2025 Joan Manuel Serrat por siempre. Todos los derechos reservados.</p>
+    <p>Autora: Adriana Abeledo</p>
+
+</footer>        
+    
+</body>
+</html>
+
